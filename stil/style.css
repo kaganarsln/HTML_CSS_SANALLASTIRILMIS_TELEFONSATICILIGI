@@ -1,0 +1,308 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgba(0, 0, 55, 0.6);
+    width: 100%;
+    height: 77px;
+    transition: all ease 0.3s;
+    flex-wrap: wrap;    
+}
+
+.nav ul li {
+    transition: all ease 0.3s;
+}
+
+nav ul li a {
+    transition: all ease 0.3s;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 77px;
+}
+
+nav ul li a:hover {
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.nav {
+    width: 100%;
+    height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+section button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+section button:hover {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    height: 80px;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+.arkaplan {
+    background-color: #fff; 
+    width: 100%;
+    height: 600px;
+    background: url(../../kaynaklar/arkaplan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+}
+
+.logo {
+    width: 100%;
+    background-color: white;
+}
+
+.logo img {
+    margin-left: 37%;
+}
+
+.yazi {
+    background: white;
+    width: 100%;
+    height: 70px;
+    margin-top: -22px;
+}
+
+.yazi h1 {
+    font-size: 7pt;
+    letter-spacing: 5px;
+    color:crimson;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+}
+
+.buton {
+    position: absolute;
+    left: 43%;
+    top: 70%;
+}
+
+.buton button {
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    width: 220px;
+    color: crimson;
+    background: #fff;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+}
+
+
+
+.buton button:hover {
+    border: 1px solid crimson;
+    background: transparent;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.magazalar {
+    margin-top: 10%;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.magaza {
+    height: 70%;
+    margin: 3% 1% 1% 1%;
+    width: 33%;
+    border-radius: 5px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.magazaf {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 70%;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 15px;
+    background: url(../../kaynaklar/telefoncu1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease 0.3s;
+}
+
+.magazaf:hover{box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.magazab:hover {box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.magazaf1:hover{box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.magazaf2:hover{box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.magazab {
+    margin-top:auto;
+    margin-bottom: auto;
+    height: 70%;
+    width: 50%;
+    transition: all ease 0.3s;
+    background: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.magazaf1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    height: 70%;
+    width: 50%;
+    border-radius: 5px;
+    background: url(../../kaynaklar/telefoncu2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease 0.3s;
+}
+
+.magazaf2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 70%;
+    margin-left: 15px;
+    width: 50%;
+    border-radius: 5px;
+    background: url(../../kaynaklar/telefoncu4.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all ease 0.3s;
+}
+
+.magazab h3 {letter-spacing: 1px; font-family: 'Courier New', Courier, monospace; color: crimson;}
+
+.magaza p {
+    margin-top: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+}
+
+.hakkimizda {
+    margin-top: 60px;
+    height: 320px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.hakkimizdab {
+    width: 50%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+}
+
+.hakkimizdab h1 {
+    margin: 30px;
+    color: crimson;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hakkimizdab p {
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
